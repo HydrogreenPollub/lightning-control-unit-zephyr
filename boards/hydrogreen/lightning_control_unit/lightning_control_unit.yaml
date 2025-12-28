@@ -1,0 +1,25 @@
+identifier: lightning_control_unit
+name: Hydrogreen lightning control unit
+toolchain:
+  - zephyr
+  - gnuarmemb
+ram: 96
+flash: 512
+supported:
+  - arduino_gpio
+  - arduino_i2c
+  - arduino_spi
+  - nvs
+  - pwm
+  - i2c
+  - gpio
+  - usb device
+  - counter
+  - spi
+  - watchdog
+  - adc
+  - dac
+  - dma
+  - can
+  - rtc
+vendor: hydrogreen
